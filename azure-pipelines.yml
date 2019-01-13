@@ -49,9 +49,3 @@ steps:
     verbose: true
     publishEndpoint: 'Public NPM Registry'
 
-
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish artifacts: drop'
-  inputs:
-    PathtoPublish: '$(System.DefaultWorkingDirectory)'
-    
